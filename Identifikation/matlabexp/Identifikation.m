@@ -1,0 +1,18 @@
+clc; close all;
+INIT;
+reg_linear; reg_nonlinear;
+y(1)=pars.E*pars.Jxx;
+y(2)=pars.Cb;
+y(3:2+pars.ndsk)=pars.m;
+y(3+pars.ndsk:2+2*pars.ndsk)=pars.Ixx_lcl;
+y(3+2*pars.ndsk:2+3*pars.ndsk)=pars.Ixy_lcl;
+y(3+3*pars.ndsk:2+4*pars.ndsk)=pars.Ixz_lcl;
+y(3+4*pars.ndsk:2+5*pars.ndsk)=pars.Iyx_lcl;
+y(3+5*pars.ndsk:2+6*pars.ndsk)=pars.Iyy_lcl;
+y(3+6*pars.ndsk:2+7*pars.ndsk)=pars.Iyz_lcl;
+y(3+7*pars.ndsk:2+8*pars.ndsk)=pars.Izx_lcl;
+y(3+8*pars.ndsk:2+9*pars.ndsk)=pars.Izy_lcl;
+y(3+9*pars.ndsk:2+10*pars.ndsk)=pars.Izz_lcl;
+q=rand(1,24);
+tau_est_linear = (-k_tau(pars,q)\DGL_mDisks_Inv_linear(pars,q)*y');
+tau_est_nonlinear = (-k_tau(pars,q)\DGL_mDisks_Inv_nonlinear(y,pars,q));

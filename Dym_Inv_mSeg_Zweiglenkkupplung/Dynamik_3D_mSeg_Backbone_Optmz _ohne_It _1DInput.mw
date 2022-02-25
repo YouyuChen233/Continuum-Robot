@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2021" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple\351\273\230\350\256\244\351\205\215\347\275\256" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" scientificx="true" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="[10, 10]" useclientjvm="true" format="worksheet" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="SimSun" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="SimSun" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[175,0,175]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="SimSun" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L71" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart:
+starttime := time():
+with(LinearAlgebra):
+with(VectorCalculus):
+with(ListTools):
+with(CodeGeneration):
+with(StringTools):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L270" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">/* ndsk ist Anzahl der Disks, nseil ist Anzahl der Seile, nsges ist Anzahl der Segmente, nseg sind Index jede Spitze der Segmente, nkable sind Seile index f\303\274r jede Segment: nkabel[i]+1 bis nkabel[i+1] sind f\303\274r die Segment[i], n\303\244mlich i-te Segment besitzt nkabel[i+1] Seile. */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L269" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ndsk := 6:
+nseil := 8:
+nsges := 2:
+nseg := Vector(nsges):
+nseg[1] := 3:
+nseg[2] := 6:
+nkabel := Vector(nsges + 1):
+nkabel[1] := 0:
+nkabel[2] := 4:
+nkabel[3] := 8:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L243" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">MatlabExport := proc(Term, filepath, optimierung) local Tmp, fd, c1, c2, i, filepath_stat, fdstat, starttime: filepath_stat := sprintf(&quot;%s.stats&quot;, filepath): starttime := time(): fdstat := fopen(filepath_stat, WRITE): fprintf(fdstat, &quot;OptimizationMode: %d\134n&quot;, optimierung): fprintf(fdstat, &quot;StartTime: %s\134n&quot;, StringTools[FormatTime](&quot;%Y-%m-%d %H:%M:%S&quot;)): c1 := add(cost~(Term)): c2 := 0: if optimierung = 1 then Tmp := eval([codegen:-optimize](Term), pow = `^`): c2 := add(cost~(Tmp)): elif optimierung = 2 then try Tmp := eval([codegen:-optimize](Term, tryhard), pow = `^`): for i to nops(Tmp) do c2 := c2 + add(cost~(rhs(Tmp[i]))): c2 := c2 + assignments: end do: catch: printf(&quot;Error using codegen/optimize with tryhard for %s: \134n%s\134n Use normal optimization algorithm instead. (CPUTime: %1.2fs)\134n&quot;, filepath, String(lastexception), time() - starttime): Tmp := eval([codegen:-optimize](Term), pow = `^`): c2 := add(cost~(Tmp)): end try: else Tmp := Term: c2 := c1: end if: fd := fopen(filepath, WRITE): fclose(fd): CodeGeneration[Matlab](Tmp, optimize = false, resultname = &quot;res&quot;, output = filepath): fprintf(fdstat, &quot;EndTime: %s\134n&quot;, StringTools[FormatTime](&quot;%Y-%m-%d %H:%M:%S&quot;)): fprintf(fdstat, &quot;DurationCPUTime: %1.2fs\134n&quot;, time() - starttime): fprintf(fdstat, &quot;Computational Cost: &quot;): fprintf(fdstat, &quot;add. (%d-&gt;%d)&quot;, diff(c1, additions), diff(c2, additions)): fprintf(fdstat, &quot;, mult. (%d-&gt;%d)&quot;, diff(c1, multiplications), diff(c2, multiplications)): fprintf(fdstat, &quot;, div. (%d-&gt;%d)&quot;, diff(c1, divisions), diff(c2, divisions)): fprintf(fdstat, &quot;, fcn. (%d-&gt;%d)&quot;, diff(c1, functions), diff(c2, functions)): fprintf(fdstat, &quot;, ass. (%d-&gt;%d)\134n&quot;, diff(c1, assignments), diff(c2, assignments)): printf(&quot;Exported Matlab code to %s (CPUTime: %1.2fs)\134n&quot;, filepath, time() - starttime): fclose(fdstat): end proc:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L70" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">/* theta ist Winkel der Kr\303\274mmung, kappa ist Kr\303\274mmung, phi ist der Winkel der Biegeebene, S0 ist Null-Punkt, q ist Koordinaten des Roboters, dq und ddq ist die 1. und 2. ableitung von q, P ist globale Position des Endeffektors. M_Winkel ist Winkel der Orientierung von Endeffektors. Richtung_lcl ist lokale Orientierung des Endeffektors, Richtung ist globale Orientierung des Endeffektors, omega und omega_lcl sind globale und lokale Winkelgeschwindigkeit, v ist Geschwindigkeit, alpha ist Winkelbeschleunigung, a ist Beschleunigung, F_inr und M_inr sind Inertial Kraft und moment */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L250" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">qs := Vector(ndsk):
+dqs := Vector(ndsk):
+ddqs := Vector(ndsk):
+for i to ndsk do
+    qs[i] := kappa || i:
+end do:
+kappa := Vector(ndsk):
+for i to ndsk do
+    kappa[i] := k || i:
+    kappa[i] := kappa[i](t):
+end do:
+vartheta := kappa*L0:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L249" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i from 1 to ndsk do
+    dqs[i]:=dkappa||i:
+    ddqs[i]:=ddkappa||i:
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L248" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">q := kappa:
+S0 := &lt;0, 0, 0, 1&gt;:
+dq := diff(q, t):
+ddq := diff(dq, t):
+P := Matrix(4, ndsk):
+P_lcl := Matrix(3, ndsk):
+M_Winkel := Matrix(3, ndsk):
+M_Winkel_lcl := Matrix(3, ndsk):
+`&amp;omega:_lcl` := Matrix(3, ndsk):
+omega := Matrix(3, ndsk):
+v := Matrix(3, ndsk):
+alpha := Matrix(3, ndsk):
+a := Matrix(3, ndsk):
+F_inr := Matrix(3, ndsk):
+M_inr := Matrix(3, ndsk):
+phi := Vector(ndsk):
+for i to ndsk do
+    if irem(i, 2) = 1 then 
+        phi[i] := 0: 
+    else 
+        phi[i] := Pi/2: 
+    end if:
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L69" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L166" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">/* T ist homogene Transformationsmatrix(i zu i-1), Rot_lcl ist Rotationsmatrix(i zu i-1), P_lcl ist lokale Translationsvektor, Richtung_lcl ist lokale Orientierung des Endeffektors
+wir setzen alle phi mit oberer Optimierung ein. */</Text-field>
+</Input>
+</Group>
+<Group labelreference="L72" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to ndsk do
+    T[i] := Matrix(4, 4, [[cos(phi[i])^2*(cos(vartheta[i]) - 1) + 1, sin(phi[i])*cos(phi[i])*(cos(vartheta[i]) - 1), cos(phi[i])*sin(vartheta[i]), ((1 - cos(vartheta[i]))/kappa[i] + L1*sin(vartheta[i]))*cos(phi[i])], [sin(phi[i])*cos(phi[i])*(cos(vartheta[i]) - 1), sin(phi[i])^2*(cos(vartheta[i]) - 1) + 1, sin(phi[i])*sin(vartheta[i]), ((1 - cos(vartheta[i]))/kappa[i] + L1*sin(vartheta[i]))*sin(phi[i])], [-cos(phi[i])*sin(vartheta[i]), -sin(phi[i])*sin(vartheta[i]), cos(vartheta[i]), sin(vartheta[i])/kappa[i] + L1*cos(vartheta[i]) + L2], [0, 0, 0, 1]]):
+    Rot_lcl[i] := Matrix(3, 3, [[cos(phi[i])^2*(cos(vartheta[i]) - 1) + 1, sin(phi[i])*cos(phi[i])*(cos(vartheta[i]) - 1), cos(phi[i])*sin(vartheta[i])], [sin(phi[i])*cos(phi[i])*(cos(vartheta[i]) - 1), sin(phi[i])^2*(cos(vartheta[i]) - 1) + 1, sin(phi[i])*sin(vartheta[i])], [-cos(phi[i])*sin(vartheta[i]), -sin(phi[i])*sin(vartheta[i]), cos(vartheta[i])]]):
+    P_lcl[1 .. -1, i] := Vector[column](3, [((1 - cos(vartheta[i]))/kappa[i] + L1*sin(vartheta[i]))*cos(phi[i]), ((1 - cos(vartheta[i]))/kappa[i] + L1*sin(vartheta[i]))*sin(phi[i]), sin(vartheta[i])/kappa[i] + L1*cos(vartheta[i]) + L2]):
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L167" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* T_sum ist homogene Transformationsmatrix(i zu 0), Rot ist Rotationsmatrix(i zu 0). */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L73" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">T_sum[1] := T[1]:
+Rot[1] := Rot_lcl[1]:
+for i from 2 to ndsk do
+    T_sum[i] := Multiply(T_sum[i - 1], T[i]):
+    Rot[i] := Multiply(Rot[i - 1], Rot_lcl[i]):
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L169" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Globale Position berechnen. */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L74" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to ndsk do
+    P[1 .. -1, i] := Multiply(T_sum[i], S0):
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L168" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L170" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" bold="false" layout="Normal"><Font style="Text">/* Lokale und globale Winkelgeschwindigkeit berechnen. */</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L75" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to ndsk do
+    S_w[i] := Multiply(diff(Rot[i], t), Rot[i]^%T):
+    omega[1, i] := S_w[i][3, 2]:
+    omega[2, i] := S_w[i][1, 3]:
+    omega[3, i] := S_w[i][2, 1]:
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L171" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Globale Geschwindigkeit berechnen */</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L82" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">v[1 .. -1, 1] := diff(P_lcl[1 .. -1, 1], t):
+for i from 2 to ndsk do
+    v[1 .. -1, i] := v[1 .. -1, i - 1] + CrossProduct(omega[1 .. -1, i - 1], Multiply(Rot[i - 1], P_lcl[1 .. -1, i])) + Multiply(Rot[i - 1], diff(P_lcl[1 .. -1, i], t)):
+end do:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L84" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L172" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* patial Winkelgeschwindigkeit und Geschwindigkeit berechnen */</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L86" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for k to ndsk do 
+    omega := subs(ddq[k] = ddqs[k], dq[k] = dqs[k], q[k] = qs[k], omega): 
+    v := subs(ddq[k] = ddqs[k], dq[k] = dqs[k], q[k] = qs[k], v): 
+end do:
+for k to ndsk do
+    `&amp;omega:k`[k] := diff(omega, dqs[k]):
+    vk[k] := diff(v, dqs[k]):
+end do:
+for k to ndsk do
+    omega := subs(ddqs[k] = ddq[k], dqs[k] = dq[k], qs[k] = q[k], omega):
+    v := subs(ddqs[k] = ddq[k], dqs[k] = dq[k], qs[k] = q[k], v):
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L173" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L174" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Biegmoment */</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L95" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">M_b := Matrix(3, ndsk):
+M_bD := Matrix(3, ndsk):
+M_b[1 .. -1, 1] := ((E*Jxx*kappa[1]) * (Vector[column](3, [sin(phi[1]), -cos(phi[1]), 0]))) 
+                    - E*Jxx*kappa[2]*Multiply(Rot[1], Vector[column](3, [sin(phi[2]), -cos(phi[2]), 0])):
+M_bD[1 .. -1, 1] := ((Cb*diff(kappa[1], t)) * (Vector[column](3, [sin(phi[1]), -cos(phi[1]), 0]))) 
+                   - Cb*diff(kappa[2], t)*Multiply(Rot[1], Vector[column](3, [sin(phi[2]), -cos(phi[2]), 0])):
+for i from 2 to ndsk do
+    if i &lt; ndsk then 
+        M_b[1 .. -1, i] := E*Jxx*kappa[i]*Multiply(Rot[i - 1], Vector[column](3, [sin(phi[i]), -cos(phi[i]), 0])) 
+                          - E*Jxx*kappa[i + 1]*Multiply(Rot[i], Vector[column](3, [sin(phi[i + 1]), -cos(phi[i + 1]), 0])): 
+        M_bD[1 .. -1, i] := Cb*diff(kappa[i], t)*Multiply(Rot[i - 1], Vector[column](3, [sin(phi[i]), -cos(phi[i]), 0])) 
+                           - Cb*diff(kappa[i + 1], t)*Multiply(Rot[i], Vector[column](3, [sin(phi[i + 1]), -cos(phi[i + 1]), 0])): 
+    else 
+        M_b[1 .. -1, i] := E*Jxx*kappa[ndsk]*Multiply(Rot[ndsk - 1], Vector[column](3, [sin(phi[ndsk]), -cos(phi[ndsk]), 0])): 
+        M_bD[1 .. -1, i] := Cb*diff(kappa[ndsk], t)*Multiply(Rot[ndsk - 1], Vector[column](3, [sin(phi[ndsk]), -cos(phi[ndsk]), 0])): 
+    end if:
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L252" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L255" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Bohrung Parameter: Dickelinks Dickerechts Position-Winkel psi */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L253" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">DL := Vector(nseil):
+DR := Vector(nseil):
+psi := Vector(nseil):
+for i to nseil do
+    DL[i] := DL || i:
+    DR[i] := DR || i:
+    psi[i] := psi || i:
+end do:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L254" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L175" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Dicke implementieren */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L227" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to nseil do Dicke_l[i] := Vector(ndsk): Dicke_r[i] := Vector(ndsk): end do:
+for i to ndsk do
+    if irem(i, 2) = 1 then 
+        for ii to nseil do 
+            Dicke_l[ii][i] := -DL[ii]: 
+            Dicke_r[ii][i] := DR[ii]: 
+        end do: 
+    else 
+        for ii to nseil do 
+            Dicke_l[ii][i] := -DR[ii]: 
+            Dicke_r[ii][i] := DL[ii]: 
+        end do: 
+    end if:
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L229" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* r_h_lcl ist lokale Bohrung-Position der Seile, und wird weiter zu globale Postion r_h transformiert. */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L96" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to nseil do 
+    r_h_l_lcl[i] := Matrix(4, ndsk): 
+    r_h_r_lcl[i] := Matrix(4, ndsk): 
+    r_h_l[ii] := Matrix(4, ndsk): 
+    r_h_r[ii] := Matrix(4, ndsk): 
+end do:
+for i to ndsk do
+    for ii to nseil do 
+        r_h_l_lcl[ii][1 .. -1, i] := Vector[column](4, [r_h_wert*cos(psi[ii]), r_h_wert*sin(psi[ii]), Dicke_l[ii][i], 1]): 
+        r_h_r_lcl[ii][1 .. -1, i] := Vector[column](4, [r_h_wert*cos(psi[ii]), r_h_wert*sin(psi[ii]), Dicke_r[ii][i], 1]): 
+    end do:
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L228" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Globale Vector von Schwerpunkte zur Bohrung */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L235" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to ndsk do
+    for ii to nseil do 
+        r_h_l[ii][1 .. 3, i] := Multiply(Rot[i], r_h_l_lcl[ii][1 .. 3, i]): 
+        r_h_r[ii][1 .. 3, i] := Multiply(Rot[i], r_h_r_lcl[ii][1 .. 3, i]): 
+    end do:
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L176" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L222" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">/* d_ss ist Seill\303\244nge, dd_ss ist Seilgeschwindigkeit, die Gleitgeschwindigkeit ist die Summe der Gleitgeschwindigkeit des Kabels der folgenden Scheibe plus der Ableitung der Seill\303\244nge, F_reib ist Reibkr\303\244fte, eta ist &quot;wrap&quot; Winkel */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L408" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">/* Reibung Absch\303\244tzen */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L407" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to nseil do 
+    d_ss[i] := Vector(ndsk)^%T: 
+    dd_ss[i] := Vector(ndsk)^%T: 
+    dd_dsk[i] := Vector(ndsk)^%T: 
+    F_reib[i] := Vector(ndsk)^%T: 
+    delta_l[i] := Vector(ndsk)^%T: 
+    delta_l_eps[i] := Vector(ndsk)^%T: 
+    tmp_dss[i] := Vector(ndsk)^%T: 
+    tmp_dss_exact[i] := Vector(ndsk)^%T: 
+end do:
+eta := Vector(ndsk)^%T:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L406" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L382" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to ndsk do
+    if irem(i, 2) = 1 then 
+        for ii to nseil do 
+            tmp_dss[ii][i] := sqrt(2*(1/kappa[i] - r_h_wert*cos(phi[i] - psi[ii]) + DR[ii]*tan(0.5*vartheta[i]))^2*(1 - cos(vartheta[i]))) 
+                             - 2*DR[ii]/cos(0.5*vartheta[i]): 
+            d_ss[ii][i] := sqrt(2*(1/kappa[i] - r_h_wert*cos(phi[i] - psi[ii]) + DR[ii]*tan(0.5*vartheta[i]))^2*(1 - cos(vartheta[i]))) 
+                             - 2*DR[ii]/cos(0.5*vartheta[i]) + L1 + L2: 
+        end do: 
+    else 
+        for ii to nseil do 
+            tmp_dss[ii][i] := sqrt(2*(1/kappa[i] - r_h_wert*cos(phi[i] - psi[ii]) + DL[ii]*tan(0.5*vartheta[i]))^2*(1 - cos(vartheta[i]))) 
+                             - 2*DL[ii]/cos(0.5*vartheta[i]): 
+            d_ss[ii][i] := sqrt(2*(1/kappa[i] - r_h_wert*cos(phi[i] - psi[ii]) + DL[ii]*tan(0.5*vartheta[i]))^2*(1 - cos(vartheta[i]))) 
+                             - 2*DL[ii]/cos(0.5*vartheta[i]) + L1 + L2: 
+        end do: 
+    end if:
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L400" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* P_h ist hole-to-hole Orientierung */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L401" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">P_h := Matrix(3, ndsk):
+Winkel_Ph := Vector(ndsk):
+for i to ndsk do
+    Winkel_Ph[i] := arctan((tmp_dss[nseil][i]*sin(0.5*vartheta[i]) + L1*sin(vartheta[i]))/(tmp_dss[nseil][i]*cos(0.5*vartheta[i]) + L1*cos(vartheta[i]) + L2)):
+end do:
+P_h[1 .. -1, 1] := Vector[column](3, [sin(Winkel_Ph[1])*cos(phi[1]), sin(Winkel_Ph[1])*sin(phi[1]), cos(Winkel_Ph[1])]):
+for i from 2 to ndsk do
+    P_h[1 .. -1, i] := Multiply(Rot[i - 1], Vector[column](3, [sin(Winkel_Ph[i])*cos(phi[i]), sin(Winkel_Ph[i])*sin(phi[i]), cos(Winkel_Ph[i])])):
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L384" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L383" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLyUnZmFtaWx5R1EwVGltZXN+TmV3flJvbWFuRicvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLyUnZmFtaWx5R1EwVGltZXN+TmV3flJvbWFuRicvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L223" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to nseil do 
+    dd_ss[i] := diff(d_ss[i], t): 
+end do:
+for i from ndsk - 1 by -1 to 1 do
+    for ii to nseil do 
+        dd_dsk[ii][i] := dd_dsk[ii][i + 1] + dd_ss[ii][i + 1]: 
+    end do:
+end do:
+for i to ndsk - 1 do
+    eta[i] := arccos(DotProduct(convert(P_h[1 .. -1, i], list), convert(P_h[1 .. -1, i + 1], list))):
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L267" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text" encoding="UTF-8">/* delta_l Korrektur, es gibt keine Seil\303\244nderung(Seile f\303\274r 1. Segment) in der nachfolgenden Segmente */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L266" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to nsges - 1 do
+    for ii from nkabel[i] + 1 to nkabel[i + 1] do 
+        for iii from nseg[i] + 1 to nseg[nsges] do 
+            delta_l[ii][iii] := 0: 
+        end do: 
+    end do:
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L265" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Tension und Lage zum Beginn */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L226" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to nseil do 
+    Tension[i] := Vector(ndsk)^%T: 
+end do:
+for ii to nseil do
+    Tension[ii][1] := tau || ii:
+end do:
+for i from 2 to ndsk do
+    for ii to nseil do 
+        Tension[ii][i] := Tension[ii][i - 1]*exp(mysign(dd_dsk[ii][i - 1])*mu*eta[i - 1]): 
+    end do:
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L177" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Kontaktkraft F_act berechnen</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L94" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to nseil do 
+    F_act[i] := Matrix(3, ndsk): 
+end do:
+for iii to nsges do
+    for i to nseg[iii] do 
+        if i &lt; nseg[iii] then 
+            for ii from nkabel[iii] + 1 to nkabel[iii + 1] do 
+                F_act[ii][1 .. -1, i] := -P_h[1 .. -1, i]*Tension[ii][i] + P_h[1 .. -1, i + 1]*Tension[ii][i + 1]: 
+            end do: 
+        else 
+            for ii from nkabel[iii] + 1 to nkabel[iii + 1] do 
+                F_act[ii][1 .. -1, i] := -Tension[ii][i]*P_h[1 .. -1, i]: 
+            end do: 
+        end if: 
+    end do:
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L264" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Tension Korrektur */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L263" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to nsges - 1 do
+    for ii from nkabel[i] + 1 to nkabel[i + 1] do 
+        for iii from nseg[i] + 1 to nseg[nsges] do 
+            Tension[ii][iii] := 0: 
+        end do: 
+    end do:
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L256" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLyUnZmFtaWx5R1EwVGltZXN+TmV3flJvbWFuRicvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLyUnZmFtaWx5R1EwVGltZXN+TmV3flJvbWFuRicvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L178" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Kontaktmoment M_act berechnen */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L92" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to nseil do 
+    M_act[i] := Matrix(3, ndsk): 
+end do:
+for iii to nsges do
+    for i to nseg[iii] do 
+        if i &lt; nseg[iii] then 
+            for ii from nkabel[iii] + 1 to nkabel[iii + 1] do 
+                M_act[ii][1 .. -1, i] := CrossProduct(convert(r_h_l[ii][1 .. 3, i], Vector), convert(-Tension[ii][i]*P_h[1 .. -1, i], Vector)) 
+                                        + CrossProduct(convert(r_h_r[ii][1 .. 3, i], Vector), convert(Tension[ii][i + 1]*P_h[1 .. -1, i + 1], Vector)): 
+            end do: 
+        else 
+            for ii from nkabel[iii] + 1 to nkabel[iii + 1] do 
+                M_act[ii][1 .. -1, i] := CrossProduct(convert(r_h_l[ii][1 .. 3, i], Vector), convert(-Tension[ii][i]*P_h[1 .. -1, i], Vector)): 
+            end do: 
+        end if: 
+    end do:
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L236" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L378" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Gravitation */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L377" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">m := Vector(ndsk):
+for i to ndsk do
+    m[i] := m || i:
+end do:
+F_g := Matrix(3, ndsk):
+for i to ndsk do
+    F_g[1 .. -1, i] := -m[i]*g*Vector[column](3, [0, 1, 0]):
+end do:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L373" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text" encoding="UTF-8">/* Massentr\303\244gheitstensor transformieren */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L374" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to ndsk do 
+    I_lcl[i] := Matrix(3, 3, [[Ixx_lcl || i, Ixy_lcl || i, Ixz_lcl || i], [Iyx_lcl || i, Iyy_lcl || i, Iyz_lcl || i], [Izx_lcl || i, Izy_lcl || i, Izz_lcl || i]]): 
+end do:
+for i to ndsk do
+    I_g[i] := Multiply(Multiply(Rot[i], I_lcl[i]), Rot[i]^%T):
+end do:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L372" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L381" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Globale Winkelbeschleunigung und Beschleunigung berechnen */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L376" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L375" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">alpha := diff(omega, t):
+a := diff(v, t):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L380" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Inertial Kraft und Moment berechnen */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L379" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to ndsk do
+    F_inr[1 .. -1, i] := -m[i]*a[1 .. -1, i]:
+    M_inr[1 .. -1, i] := -Multiply(I_g[i], alpha[1 .. -1, i]) - CrossProduct(omega[1 .. -1, i], Multiply(I_g[i], omega[1 .. -1, i])):
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L409" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Extern Kraft an der Spitze */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L410" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">F_ext := Matrix(3, ndsk):
+M_ext := Matrix(3, ndsk):
+F_ext[1 .. -1, ndsk] := Vector[column](3, [F_ext_x, F_ext_y, F_ext_z]):
+M_ext[1 .. -1, ndsk] := Vector[column](3, [M_ext_x, M_ext_y, M_ext_z]):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L89" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L181" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Kraft aufsummieren */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L268" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">F_act_ges := Matrix(3, ndsk):
+M_act_ges := Matrix(3, ndsk):
+for i to nseil do
+    F_act_ges := F_act_ges + F_act[i]:
+    M_act_ges := M_act_ges + M_act[i]:
+end do:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L207" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">F_ex := F_inr + F_act_ges + F_g + F_ext:
+M_ex := M_inr + M_b + M_act_ges + M_bD + M_ext:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L108" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Virtuelle Arbeit Gleichungen */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L111" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">GL:= Vector(ndsk):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L112" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for k to ndsk do
+    for i to ndsk do 
+        GL[k] := GL[k] + DotProduct(convert(M_ex[1 .. -1, i], list), convert(`&amp;omega:k`[k][1 .. -1, i], list)): 
+        GL[k] := GL[k] + DotProduct(convert(F_ex[1 .. -1, i], list), convert(vk[k][1 .. -1, i], list)): 
+    end do:
+end do:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L197" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Massenmatrix */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L213" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for k to ndsk do 
+    GL := subs(ddq[k] = ddqs[k], dq[k] = dqs[k], q[k] = qs[k], GL): 
+end do:
+M := Matrix(ndsk, ndsk):
+for k to ndsk do
+    for j to ndsk do 
+        M(k, j) := diff(GL[k], ddqs[j]): 
+    end do:
+end do:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L219" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L211" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font style="Text">/* Koordinatensystem ohne t ersetzen */</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L241" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L209" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for k to ndsk do    
+    omega := subs(ddq[k] = ddqs[k], dq[k] = dqs[k], q[k] = qs[k], omega):
+    v := subs(ddq[k] = ddqs[k], dq[k] = dqs[k], q[k] = qs[k], v):
+    P := subs(ddq[k] = ddqs(k), dq[k] = dqs(k), q[k] = qs(k), P):
+end do:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L203" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L237" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to ndsk do
+    for k to ndsk do I_g[i] := subs(ddq[k] = ddqs(k), dq[k] = dqs(k), q[k] = qs(k), I_g[i]): end do:
+end do:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L238" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==</Equation></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L118" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">MatlabExport(GL,&quot;matlabexp/dydt.txt&quot;,1):
+MatlabExport(M,&quot;matlabexp/M.txt&quot;,1):
+MatlabExport(omega,&quot;matlabexp/Omega.txt&quot;,1):
+MatlabExport(v,&quot;matlabexp/V.txt&quot;,1):
+</Text-field>
+</Input>
+<Output><Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20the%20function%20names%20%7Bmysign%7D%20are%20not%20recognized%20in%20the%20target%20language" hyperlink="true"><Font style="HyperlinkWarning">Warning, the function names {mysign} are not recognized in the target language</Font></Hyperlink></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Exported Matlab code to matlabexp/dydt.txt (CPUTime: 7.19s)
+Exported Matlab code to matlabexp/M.txt (CPUTime: 1.56s)
+Exported Matlab code to matlabexp/Omega.txt (CPUTime: 0.30s)
+Exported Matlab code to matlabexp/V.txt (CPUTime: 0.20s)
+</Text-field>
+</Output>
+</Group>
+<Group labelreference="L225" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEhRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGLw==</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L224" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i to ndsk do
+    MatlabExport(I_g[i], sprintf(&quot;matlabexp/I%d.txt&quot;, i), 1):
+end do:</Text-field>
+</Input>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Exported Matlab code to matlabexp/I1.txt (CPUTime: 0.02s)
+Exported Matlab code to matlabexp/I2.txt (CPUTime: 0.03s)
+Exported Matlab code to matlabexp/I3.txt (CPUTime: 0.05s)
+Exported Matlab code to matlabexp/I4.txt (CPUTime: 0.03s)
+Exported Matlab code to matlabexp/I5.txt (CPUTime: 0.05s)
+Exported Matlab code to matlabexp/I6.txt (CPUTime: 0.06s)
+</Text-field>
+</Output>
+</Group>
+<Group labelreference="L239" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">MatlabExport(P, sprintf(&quot;matlabexp/P_%dDisks.txt&quot;, ndsk), 1):</Text-field>
+</Input>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Exported Matlab code to matlabexp/P_6Disks.txt (CPUTime: 0.06s)
+</Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L240" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Laufzeit := time() - starttime;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L411" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLyUnZmFtaWx5R1EwVGltZXN+TmV3flJvbWFuRicvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLyUnZmFtaWx5R1EwVGltZXN+TmV3flJvbWFuRicvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group>
+</Worksheet>
